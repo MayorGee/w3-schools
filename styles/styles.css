@@ -1,0 +1,452 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: verdana,sans-serif;
+    color: black;
+    background-color:rgba(247, 242, 242, 0.548);
+    height: auto;
+}
+
+ div.header-1 {
+    height: 70px;
+    width: 100%;
+    background-color:white;
+    display: inline-flex;
+    align-items: center;
+    z-index: 3;
+      
+}
+
+.left-header-1 {
+    width: 50%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    font-weight:bold;
+    font-size: 2em;
+    padding-left: 2%;
+    color: rgb(85, 84, 84);
+}
+
+.right-header-1 {
+       width: 50%;
+       height: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+       
+}
+div.header-1 button {
+    background-color: #4CAF50;
+    padding: 1em;
+    border: none;
+    border-radius: 15%;
+    font-weight: 750;
+    color: white;
+        
+}
+div.header-1 button:hover, div.exercise li:hover {
+background-color:#319434;
+
+}
+
+div.header-2 {
+    height: 70px;
+    width: 100%;
+    background-color:#4CAF50;
+    display: flex;
+    color: white;
+    box-shadow: 1px -14px 50px 13px rgba(0,0,0,0.5);
+    z-index: 7;
+    
+}
+
+div.left-header-2 {
+    height: 100%;
+    width: 60%;
+   
+}
+
+div.right-header-2 {
+    height: 100%;
+    width: 40%;
+    
+}
+
+div.left-header-2 ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+    justify-content: space-evenly;
+    margin:0px;
+    padding: 0px;
+}
+div.left-header-2 ul li {
+    width: 20%;
+    font-size: 80%;
+    height: 100%;
+    text-align: center;
+    padding: 2em;
+    
+}
+
+div.header-2 ul li:hover {
+    background-color: white;
+    color: black;
+}
+div.right-header-2 ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    margin: 0;
+    
+}
+
+div.right-header-2 ul li {
+    padding: 0.5em;
+    justify-self: center;
+    height: inherit;
+    font-size: 27px;
+    padding: 20px;
+
+}
+div.body {
+    height: 100%;
+    
+
+}
+div.side-bar {
+     background-color: white;
+     width: 15%;
+     height: 700vh;
+     position: relative;
+     left: 0;
+     float: left;
+     box-shadow: 0px 0px 4px rgb(0,0,0,0.5);
+     padding: 0px 10px;
+    z-index: 5;
+    
+
+
+}
+
+div.side-bar ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.three {
+    font-size: x-large;
+}
+.com {
+    color: #4caf50;
+}
+
+.highlight-header:hover {
+    color: #4CAF50;
+}
+
+div.content {
+    float:left;
+    width:85%;
+    height: 100%;
+    background-color: white;
+    z-index: 3;
+    
+
+   
+}
+
+div.html,div.css,div.javascript,div.sql,div.content div.learn-more {
+    float:left;
+    width:100%;    
+    height: 450px;
+           
+}
+.main,div.other-languages p,div.exercise p, div.web-templates p, div.how-to-section p, div.inner-certificate p{
+    font-size: 20px;
+}
+
+div.html-left,div.css-right,div.javascript-left,div.sql-right {
+    width: 50%;
+    height: inherit;
+    float:left;
+    text-align:center;
+    padding: 60px;
+    
+}
+
+div.html-left ul,div.css-right ul, div.javascript-left ul,div.other-languages ul, div.exercise ul, div.how-to-section ul, div.copyright ul {
+    list-style-type: none;
+}
+
+
+div.main li, div.other-languages button, div.learn-more-item button, div.web-templates button, div.how-to-section button {
+    display: inline-block;
+    background-color: rgb(88, 87, 87);
+    padding: 8px;
+    color:white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+div.main li:hover, div.other-languages button:hover, div.learn-more-item button:hover, div.web-templates button:hover, div.how-to-section button:hover{
+    background-color: rgb(196, 193, 193);
+    color: black;
+}
+
+
+#big-html, #big-css, #big-javascript,#big-sql{
+    color: rgb(88, 87, 87);
+    font-size: 75px;
+    margin: 0;
+
+}
+
+div.html-right,div.javascript-right {
+    width: 45%;
+    height: 80%;
+    background-color: rgb(241, 240, 240);
+    float:left;
+    margin: 20px 10px 20px 0px;    
+    padding: 10px 10px;
+    box-shadow: 0 0 8px rgb(0,0,0,0.5); 
+}
+
+div.css-left,div.sql-left {
+    height: 90%;
+    width: 45%;
+    float:left;
+    margin : 20px 15px;
+    padding-left: 5px;
+}
+
+div.code-snippet {
+    width: 100%;
+    height:  65%;
+    background-color: white;
+    border-left:  #4CAF50 solid 4px;
+    font-size: 14px;
+    padding: 15px;
+}
+
+ button.try-it-yourself {
+    background-color: #4CAF50;
+    padding: 10px;
+    margin-top: 10px;
+    border-style: none;
+    font-size: 18px;
+    color:white;
+    
+    
+}
+
+button:hover {
+    box-shadow: 0 0 8px rgb(0,0,0,0.5);
+    cursor: pointer;
+}
+
+div.css,div.sql {
+    background-color: rgb(241, 240, 240);
+    
+}
+
+div.other-languages {
+    float:left;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(88, 87, 87);
+
+}
+
+div.other-languages li {
+    display: inline-block;
+    width: 550px;
+    height: 230px;
+    background-color: white;
+    margin: 30px;
+    text-align: center;
+
+}
+ 
+div.other-languages p.big-language, .big-language {
+    font-size: 25px;
+}
+ 
+div.content div.learn-more {
+    height: 350px;
+}
+
+div.learn-more img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+div.learn-more div.learn-more-item {
+    width: 30%;
+    float: left;
+    height:90%;
+    margin: 10px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+div.exercise {
+    float:left;
+    width: 100%;
+    text-align:center;
+    height: 350px;
+    background-color: rgb(92, 91, 91);
+    color:white;
+    padding: 25px;
+    
+}
+
+div.exercise li {
+    display: inline-block;
+    background-color: #4caf50;
+    font-size: 18px;
+    margin: 5px;
+
+}
+    /*  i know sey no be like this they make their own sha    */ 
+        
+div.exercise ul.language-exercise li {    
+    padding: 20px 65px;                   
+}
+
+div.exercise ul.other-language-exercise li {
+    padding: 20px 35px;
+}
+
+div.web-templates {
+    width:100%;
+    height: 550px;
+    background-color: rgb(241, 240, 240) ;
+    text-align: center;
+    padding: 25px;
+    float: left;
+}
+
+ div.web-templates img {
+    width: 60%;
+    display: inline-block;
+    padding: 20px 0;
+    
+} 
+div.exercise h1, div.web-templates h1, div.how-to-section h1, div.inner-certificate h1 {
+    font-weight:100;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+div.how-to-section {
+    float:left;
+    width:100%;
+    height: 550px;
+    text-align: center;
+    padding: 25px;
+}
+
+div.how-to-section li {
+    display:inline-block;
+
+}
+
+div.how-to-section iframe {
+    width: 500px;
+    height: 300px;
+    border: rgb(241, 240, 240) 4px solid
+}
+
+div.outer-certificate {
+    float: left;
+    width: 100%;
+    height: 530px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+ div.inner-certificate {
+    width: 60%;
+    height: inherit !important;
+    margin: 0 auto;
+    background: url("../images/getcertified.jpg"); 
+    background-size: contain;
+    
+    
+}
+
+div.inner-certificate-upper {
+    margin-top: 0;
+    height: 30%;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.4);
+}
+
+div.inner-certificate-lower {
+    padding: 130px;
+}
+
+div.copyright {
+    float:left;
+    width:100%;
+    height: 400px;
+    background-color: rgb(88, 87, 87);
+    color: white;
+    padding: 50px;
+}
+
+div.copyright ul.copyright-top-left, div.copyright ul.copyright-top-right {
+    float:left;
+    width: 50%;
+    
+}
+
+div.copyright ul.copyright-top-right {
+    padding-left: 400px;
+}
+
+div.copyright ul.copyright-top-left li, div.copyright ul.copyright-top-right li {
+    display:inline;
+}
+
+div.copyright ul.copyright-top-left li {
+    color: black;
+    background-color: rgb(241, 240, 240);
+    padding: 8px;
+}
+div.copyright p {
+    text-align: center;
+    padding-top: 20px;
+}
+
+div.copyright p a {
+    text-decoration: underline;
+}
+
+div.copyright p a:hover, div.copyright ul.copyright-top-right li:hover {
+    color:#319434;
+    cursor: pointer;
+}
+.fa-thumbs-up {
+    font-size: 20px;
+}
+
+.copyright-hover-button:hover {
+    color: black;
+    background-color: rgb(221, 218, 215);
+
+}
